@@ -1,0 +1,12 @@
+.thumbnail #image-title:hover, .image-content:hover{
+    background: grey;
+}
+.content-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.42857143;
+    /*max-height: 32px;*/
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
